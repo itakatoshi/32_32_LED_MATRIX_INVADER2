@@ -5,6 +5,7 @@ FPGA(Cmod A7-35T)を使用。
 
 マイコン(STM32/NUCLEO-F103RB)の作品はこちら。
 
+
 マイコンとFPGAの性能を比較してみる。
 
 
@@ -32,11 +33,18 @@ iPhoneのカメラで画像を撮影。チラつきはあり。肉眼で見る�
 
 
 **FPGA(Cmod A7-35T)**
+iPhoneのカメラで動画を撮影。チラつきはなし。きれいに映る。
 
 
 https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/310bea91-0dd3-4e10-9655-903a93e4567a
 
 **マイコン(STM32/NUCLEO-F103RB)**
+iPhoneのカメラで動画を撮影。肉眼では問題はないが、カメラで撮るとチラつきあり。
+
+
+
+https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/e2c47f3c-6300-4d96-a191-4fbbac3c9470
+
 
 
 ## 回路図
