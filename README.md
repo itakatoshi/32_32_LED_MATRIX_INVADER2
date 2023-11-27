@@ -10,6 +10,7 @@ LEDマトリックスのダイナミック点灯をスマホで撮影してみ�
 画像
 ・FPGA(Cmod A7-35T)
 
+![IMG_1355](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/a44e77b6-5e96-4e11-9efd-2aac6a4a16c3)
 
 ・マイコン(STM32/NUCLEO-F103RB)
 
