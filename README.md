@@ -19,7 +19,7 @@ iPhoneのカメラで画像を撮影。チラつきはなし。
 
 
 **マイコン(STM32/NUCLEO-F103RB)**
-チラつきはあり。肉眼で見るととくにチラつきは感じない。
+iPhoneのカメラで画像を撮影。チラつきはあり。肉眼で見るととくにチラつきは感じない。
 
 
 ![IMG_1355](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/528c8824-c75e-4b3f-a42b-45ac56bce994)
