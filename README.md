@@ -1,25 +1,31 @@
 # 32_32_LED_MATRIX_INVADER2
-32×32LEDマトリックス
+32×32LEDマトリックスを用いたプロジェクト
+
 FPGA(Cmod A7-35T)を使用。
-マイコンの作品(STM32/NUCLEO-F103RB)と比較してみる。
+
+マイコン(STM32/NUCLEO-F103RB)の作品はこちら。
+
+マイコンとFPGAの性能を比較してみる。
 
 ## 動作検証
 
+
 LEDマトリックスのダイナミック点灯をスマホで撮影してみると差が一目瞭然。
 
-画像
-・FPGA(Cmod A7-35T)
 
-![IMG_1355](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/a44e77b6-5e96-4e11-9efd-2aac6a4a16c3)
+**FPGA(Cmod A7-35T)**
+![IMG_1373](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/c96b5ac6-0b1a-413d-8d82-dbfa30258e0f)
 
-・マイコン(STM32/NUCLEO-F103RB)
+
+**マイコン(STM32/NUCLEO-F103RB)**
+![IMG_1355](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/528c8824-c75e-4b3f-a42b-45ac56bce994)
 
 
 動画
-・FPGA(Cmod A7-35T)
+**FPGA(Cmod A7-35T)**
 
 
-・マイコン(STM32/NUCLEO-F103RB)
+**マイコン(STM32/NUCLEO-F103RB)**
 
 
 ## 回路図
