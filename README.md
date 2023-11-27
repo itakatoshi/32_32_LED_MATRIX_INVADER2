@@ -7,6 +7,10 @@ FPGA(Cmod A7-35T)を使用。
 
 マイコンとFPGAの性能を比較してみる。
 
+
+
+
+
 ## 動作検証
 
 
@@ -29,6 +33,8 @@ iPhoneのカメラで画像を撮影。チラつきはあり。肉眼で見る�
 
 **FPGA(Cmod A7-35T)**
 
+
+https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/310bea91-0dd3-4e10-9655-903a93e4567a
 
 **マイコン(STM32/NUCLEO-F103RB)**
 
