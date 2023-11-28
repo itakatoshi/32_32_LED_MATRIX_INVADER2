@@ -17,7 +17,7 @@ FPGA(Cmod A7-35T)を使用。
 
 
 **FPGA(Cmod A7-35T)**
-iPhoneのカメラで画像を撮影。チラつきはなし。
+iPhoneのカメラで画像を撮影。カメラ撮影でも問題なし。
 
 
 ![IMG_1377](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/835f70ef-6954-43b4-b1f2-91b99fa788af)
