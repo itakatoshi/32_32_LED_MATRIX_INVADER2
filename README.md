@@ -20,7 +20,7 @@ FPGA(Cmod A7-35T)を使用。
 iPhoneのカメラで画像を撮影。チラつきはなし。
 
 
-![IMG_1373](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/c96b5ac6-0b1a-413d-8d82-dbfa30258e0f)
+![IMG_1377](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/835f70ef-6954-43b4-b1f2-91b99fa788af)
 
 
 **マイコン(STM32/NUCLEO-F103RB)**
@@ -54,6 +54,10 @@ https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/e2c47f3
 ![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/140d90d2-0028-4731-8a54-e33079924ac9)
 
 ## 完成品の掲載（ハードウェア）
+
+
+![IMG_1375](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/de4b52c2-b958-424f-864c-50cf406e3b1e)
+
 
 ## 状態遷移図
 
