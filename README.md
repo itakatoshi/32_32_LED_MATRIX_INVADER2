@@ -56,7 +56,7 @@ https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/e2c47f3
 ## 完成品の掲載（ハードウェア）
 
 
-![IMG_1375](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/de4b52c2-b958-424f-864c-50cf406e3b1e)
+![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/28e6da35-66cf-4730-99fc-92e40b2cd7a3)
 
 
 ## 状態遷移図
