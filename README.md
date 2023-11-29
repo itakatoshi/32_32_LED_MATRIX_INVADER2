@@ -81,6 +81,7 @@ https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/33e9bb1
 ![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/140d90d2-0028-4731-8a54-e33079924ac9)
 
 
+![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/8aa07623-2d5d-4dc8-8a46-24b28b93062a)
 
 
 ## 状態遷移図
