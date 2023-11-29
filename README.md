@@ -66,9 +66,7 @@ iPhoneのカメラで動画を撮影　　※GitHub上は10MBの容量制限の�
 
 
 
-https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/e2c47f3c-6300-4d96-a191-4fbbac3c9470
-
-
+https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/33e9bb10-f633-44ae-a4e8-a988d9cbf9d6
 
 
 ## 回路図
