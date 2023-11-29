@@ -1,18 +1,33 @@
 # 32_32_LED_MATRIX_INVADER2
+
+
 32×32LEDマトリックスを用いたFPGAのプロジェクト
+
 
 
 
 [マイコン(STM32/NUCLEO-F103RB)の作品はこちら](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER)
 
+
+
 ## 完成品の掲載（ハードウェア）
 
 
 〇主な部品
+
+
 ・FPGA(Cmod A7-35T)
+
+
 ・32×32LEDマトリックス
+
+
 ・タクトスイッチ×4
+
+
 ・圧電ブザー
+
+
 
 
 ![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/28e6da35-66cf-4730-99fc-92e40b2cd7a3)
