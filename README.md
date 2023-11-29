@@ -37,17 +37,17 @@
 ## 動作検証
 
 
-マイコンとFPGAの差分検証。
+マイコンとFPGAの差分検証
 
 **FPGA(Cmod A7-35T)**
-iPhoneのカメラで画像を撮影。カメラ撮影でも問題なし。
+iPhoneのカメラで画像を撮影　カメラ撮影でも問題なし
 
 
 ![IMG_1377](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/835f70ef-6954-43b4-b1f2-91b99fa788af)
 
 
 **マイコン(STM32/NUCLEO-F103RB)**
-iPhoneのカメラ撮影の場合チラつきはあり（フレームレート）。肉眼で見るととくにチラつきは感じない。
+iPhoneのカメラ撮影の場合チラつきはあり（フレームレート）　肉眼で見るととくにチラつきは感じない　
 
 
 ![IMG_1355](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/528c8824-c75e-4b3f-a42b-45ac56bce994)
@@ -56,13 +56,13 @@ iPhoneのカメラ撮影の場合チラつきはあり（フレームレート�
 
 
 **FPGA(Cmod A7-35T)**
-iPhoneのカメラで動画を撮影。　※GitHub上は10MBの容量制限の為、一部掲載。
+iPhoneのカメラで動画を撮影　　※GitHub上は10MBの容量制限の為、一部掲載
 
 
 https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/310bea91-0dd3-4e10-9655-903a93e4567a
 
 **マイコン(STM32/NUCLEO-F103RB)**
-iPhoneのカメラで動画を撮影。　※GitHub上は10MBの容量制限の為、一部掲載。
+iPhoneのカメラで動画を撮影　　※GitHub上は10MBの容量制限の為、一部掲載
 
 
 
