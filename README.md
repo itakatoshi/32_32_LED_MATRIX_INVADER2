@@ -65,7 +65,7 @@ iPhoneのカメラで動画を撮影　　
 https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/310bea91-0dd3-4e10-9655-903a93e4567a
 
 **マイコン(STM32/NUCLEO-F103RB)**
-iPhoneのカメラで動画を撮影　　
+iPhoneのカメラ撮影の場合チラつきはあり（フレームレート）　
 
 
 ※GitHub上は10MBの容量制限の為、一部掲載
