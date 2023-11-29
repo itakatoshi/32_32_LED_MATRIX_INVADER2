@@ -47,10 +47,10 @@ wire RED_UP_0;
 wire RED_DOWN_0;
 wire GREEN_UP_0;
 wire GREEN_DOWN_0;
-wire BLUE_UP_0;
-wire BLUE_DOWN_0;
+//wire BLUE_UP_0;
+//wire BLUE_DOWN_0;
 wire sound_out0;
-wire [3:0] note_sel0;
+//wire [3:0] note_sel0;
 wire [2:0]next_stage_flag0;
 wire [1:0] stage_select0;
 
@@ -143,10 +143,9 @@ always@(posedge clk or posedge reset) begin
             RED_DOWN <= RED_DOWN_0;
             GREEN_UP <= GREEN_UP_0;
             GREEN_DOWN <= GREEN_DOWN_0;
-            BLUE_UP <= BLUE_UP_0;
-            BLUE_DOWN <= BLUE_DOWN_0;
+
             sound_en <= sound_out0;
-            note_sel <= note_sel0;
+            //note_sel <= note_sel0;
             next_stage_en <= next_stage_flag0;
             stage_select_en <= stage_select0;
     
@@ -157,10 +156,9 @@ always@(posedge clk or posedge reset) begin
             RED_DOWN <= RED_DOWN_0;
             GREEN_UP <= GREEN_UP_0;
             GREEN_DOWN <= GREEN_DOWN_0;
-            BLUE_UP <= BLUE_UP_0;
-            BLUE_DOWN <= BLUE_DOWN_0;
+
             sound_en <= sound_out0;
-            note_sel <= note_sel0;
+           // note_sel <= note_sel0;
             next_stage_en <= next_stage_flag0;
             stage_select_en <= stage_select0;
         end 
@@ -222,8 +220,6 @@ always@(posedge clk or posedge reset) begin
             RED_DOWN <= RED_DOWN_0;
             GREEN_UP <= GREEN_UP_0;
             GREEN_DOWN <= GREEN_DOWN_0;
-            BLUE_UP <= BLUE_UP_0;
-            BLUE_DOWN <= BLUE_DOWN_0;
             sound_en <= sound_out0;
             next_stage_en <= next_stage_flag0;
             stage_select_en <= stage_select0;
@@ -244,15 +240,15 @@ opening opening(
     .sw3_raise(sw3_raise),
     .cur_stage(cur_stage),
     .sound_en(sound_out0),
-    .note_sel(note_sel0),
+    //.note_sel(note_sel0),
     .next_stage_flag(next_stage_flag0),
     .stage_select(stage_select0),
     .RED_UP_WIRE(RED_UP_0),  
     .RED_DOWN_WIRE(RED_DOWN_0),  
     .GREEN_UP_WIRE(GREEN_UP_0),  
-    .GREEN_DOWN_WIRE(GREEN_DOWN_0),  
-    .BLUE_UP_WIRE(BLUE_UP_0),  
-    .BLUE_DOWN_WIRE(BLUE_DOWN_0)  
+    .GREEN_DOWN_WIRE(GREEN_DOWN_0)
+//    .BLUE_UP_WIRE(BLUE_UP_0),  
+//    .BLUE_DOWN_WIRE(BLUE_DOWN_0)  
 );
 
 stage1 stage1(

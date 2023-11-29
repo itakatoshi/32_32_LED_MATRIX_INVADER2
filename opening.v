@@ -10,15 +10,15 @@ module opening (
     input wire sw3_raise,
     input wire [2:0]cur_stage,
     output reg sound_en,
-    output reg [3:0] note_sel,
+    //output reg [3:0] note_sel,
     output wire [2:0]next_stage_flag,
     output wire [1:0] stage_select,
     output wire RED_UP_WIRE,
     output wire RED_DOWN_WIRE,
     output wire GREEN_UP_WIRE,
-    output wire GREEN_DOWN_WIRE,
-    output wire BLUE_UP_WIRE,
-    output wire BLUE_DOWN_WIRE
+    output wire GREEN_DOWN_WIRE
+//    output wire BLUE_UP_WIRE,
+//    output wire BLUE_DOWN_WIRE
 );
 
 // 状態を示す定数を定義
@@ -33,7 +33,7 @@ reg [2:0] next_stage;
 reg [1:0] stage_select_flag; 
 
 // 2次元の reg 配列
-reg [31:0] R_UP [15:0], R_DOWN [15:0], G_UP [15:0], G_DOWN [15:0], B_UP [15:0], B_DOWN [15:0];
+reg [31:0] R_UP [15:0], R_DOWN [15:0], G_UP [15:0], G_DOWN [15:0]; //B_UP [15:0], B_DOWN [15:0];
 reg [23:0] count;
 reg [23:0] MAX;
 
@@ -46,8 +46,8 @@ assign RED_UP_WIRE = R_UP[row][col];
 assign RED_DOWN_WIRE = R_DOWN[row][col];
 assign GREEN_UP_WIRE = G_UP[row][col];
 assign GREEN_DOWN_WIRE = G_DOWN[row][col];
-assign BLUE_UP_WIRE = B_UP[row][col];
-assign BLUE_DOWN_WIRE = B_DOWN[row][col];
+//assign BLUE_UP_WIRE = B_UP[row][col];
+//assign BLUE_DOWN_WIRE = B_DOWN[row][col];
 assign stage_select = stage_select_flag;
 assign next_stage_flag = next_stage;
 
@@ -73,7 +73,24 @@ always @(posedge clk or posedge reset) begin
         G_UP[12]<=32'b10111111110001000010001010010101;
         G_UP[13]<=32'b10000000000000000000000000000001;
         G_UP[14]<=32'b10000000000000000000000000000001;
-        G_UP[15]<=32'b11111111111111111111111111111111;
+        G_UP[15]<=32'b10000000000000000000000000000001;
+        
+        G_DOWN[0]<=32'b10000000000000000000000000000001;
+        G_DOWN[1]<=32'b10000000000000000000000000000001;
+        G_DOWN[2]<=32'b10000000000000000000000000000001;
+        G_DOWN[3]<=32'b10111111110001000010000001100001;
+        G_DOWN[4]<=32'b10111111110000100100000011110001;
+        G_DOWN[5]<=32'b10111111110000111100000111111001;
+        G_DOWN[6]<=32'b10111111110001011010001101101101;
+        G_DOWN[7]<=32'b10111111110011111111001111111101;
+        G_DOWN[8]<=32'b10111111110011111111000101101001;
+        G_DOWN[9]<=32'b10111111110010100101001000000101;
+        G_DOWN[10]<=32'b10111111110000111100000100001001;
+        G_DOWN[11]<=32'b10000000000000000000000000000001;
+        G_DOWN[12]<=32'b10000000000000000000000000000001;
+        G_DOWN[13]<=32'b10000000000000000000000000000001;
+        G_DOWN[14]<=32'b10000000000000000000000000000001;
+        G_DOWN[15]<=32'b11111111111111111111111111111111;
             
         R_UP[0]<=32'b00000000000000000000000000000000;
         R_UP[1]<=32'b00000000000000000000000000000000;
@@ -111,6 +128,7 @@ always @(posedge clk or posedge reset) begin
             
 		next_stage <= 3'b000;
 		stage_select_flag <= 2'b0;
+		count <= 0;
 		
 	end else if (cur_stage == OPENING ) begin //オープニング
 	   
@@ -240,7 +258,7 @@ always @(posedge clk or posedge reset) begin
 	   end   
 	   
 	   
-       if (count ==12000000) begin
+       if (count ==11999999) begin
             count <= 0;
             
             G_UP[0]<=32'b11111111111111111111111111111111;
@@ -279,7 +297,7 @@ always @(posedge clk or posedge reset) begin
     
     
 
-        end else if (count==6000000) begin
+        end else if (count==5999999) begin
         
         count <= count + 1;
         G_UP[0]<=32'b11111111111111111111111111111111;

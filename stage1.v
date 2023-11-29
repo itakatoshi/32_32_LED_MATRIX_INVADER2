@@ -14,7 +14,7 @@ module stage1 (
     input wire sw3_raise,
     input wire [3:0]cur_stage,
     output reg sound_en,
-    output reg [2:0] note_sel,
+    output reg [3:0] note_sel,
     output wire [2:0]next_stage_flag,
     output wire [1:0] stage_select,
     output wire RED_UP_WIRE,
@@ -94,6 +94,15 @@ always @(posedge clk or posedge reset) begin
         G_UP[13]<=32'b00000000000000000000000000000000;
         G_UP[14]<=32'b00000000000000000000000000000000;
         G_UP[15]<=32'b00000000000000000000000000000000;
+        
+        G_UP_TEN[5]<= 0;
+        G_UP_TEN[6]<= 0;
+        G_UP_TEN[7]<= 0;
+        G_UP_TEN[8]<= 0;
+        G_UP_TEN[9]<= 0;
+        G_UP_TEN[10]<= 0;
+        G_UP_TEN[11]<= 0;
+        G_UP_TEN[12]<= 0;  
     
 
         	
