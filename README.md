@@ -1,20 +1,21 @@
 # 32_32_LED_MATRIX_INVADER2
 32×32LEDマトリックスを用いたプロジェクト
 
-FPGA(Cmod A7-35T)を使用。
-
 マイコン(STM32/NUCLEO-F103RB)の作品はこちら。
 
+## 完成品の掲載（ハードウェア）
 
-マイコンとFPGAの性能を比較してみる。
 
+FPGA(Cmod A7-35T)を使用。
 
+![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/28e6da35-66cf-4730-99fc-92e40b2cd7a3)
 
 
 
 ## 動作検証
 
 
+マイコンとFPGAの性能を比較してみる。
 
 **FPGA(Cmod A7-35T)**
 iPhoneのカメラで画像を撮影。カメラ撮影でも問題なし。
@@ -53,10 +54,7 @@ https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/e2c47f3
 
 ![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/140d90d2-0028-4731-8a54-e33079924ac9)
 
-## 完成品の掲載（ハードウェア）
 
-
-![image](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER2/assets/141484485/28e6da35-66cf-4730-99fc-92e40b2cd7a3)
 
 
 ## 状態遷移図
