@@ -1,5 +1,5 @@
 # 32_32_LED_MATRIX_INVADER2
-32×32LEDマトリックスを用いたプロジェクト
+32×32LEDマトリックスを用いたFPGAのプロジェクト
 
 [マイコン(STM32/NUCLEO-F103RB)の作品はこちら](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER)
 
