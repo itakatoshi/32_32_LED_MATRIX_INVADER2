@@ -1,7 +1,7 @@
 # 32_32_LED_MATRIX_INVADER2
 
 
-32×32LEDマトリックスを用いたFPGAのプロジェクト
+32×32LEDマトリックスを用いた**FPGA(Cmod A7-35T)**のプロジェクト
 
 
 
