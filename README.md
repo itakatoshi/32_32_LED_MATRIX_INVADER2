@@ -4,6 +4,9 @@
 32×32LEDマトリックスを用いた **FPGA(Cmod A7-35T)** のプロジェクト
 
 
+・LEDマトリックスを用いたインベーダーのようなシューティングゲーム
+・ボタン４つで操作し、障害物を破壊する
+・タイミングに応じたブザー音、メロディが出る
 
 
 [マイコン(STM32/NUCLEO-F103RB)の作品はこちら](https://github.com/itakatoshi/32_32_LED_MATRIX_INVADER)
